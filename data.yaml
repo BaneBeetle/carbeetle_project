@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Carbeetle', 'Civilian']
+
+roboflow:
+  workspace: carbeetle
+  project: detect-and-classify-object-detection-woezq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/carbeetle/detect-and-classify-object-detection-woezq/dataset/2
