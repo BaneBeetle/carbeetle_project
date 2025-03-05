@@ -16,6 +16,21 @@ def main():
 def main1():
     model = YOLO("C:\\Users\\lolly\\OneDrive\\Desktop\\Projects\\carbeetle_project\\runs\detect\\train3\\weights\\best.pt")
     model.predict(source="test//images//carbeetle_00218259_jpg.rf.67814291d0af6e198b432712ba88cc82.jpg", show = True, save = True, line_width = 2)
+
+
+def webcam_testing():
+    model = YOLO("C:\\Users\\lolly\\OneDrive\\Desktop\\Projects\\carbeetle_project\\runs\detect\\train3\\weights\\best.pt") # Load up the fine-tuned model
+
+    model.predict(
+        source=0,         # 0 for the default webcam NOTE: No need to import OpenCV since Ultralyticvs has it already
+        imgsz=640,        # image size 
+        conf=0.83,        # confidence threshold
+        show=True,        # display the results live
+        save=True,        # optionally save the output video/images
+        line_width=2      # line width for drawing bounding boxes
+    )
+
 if __name__ == "__main__":
-    main1()
+    #main1()
+    webcam_testing()
 
