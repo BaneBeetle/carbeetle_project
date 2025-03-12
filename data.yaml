@@ -6,8 +6,8 @@ nc: 2
 names: ['Carbeetle', 'Civilian']
 
 roboflow:
-  workspace: carbeetle
-  project: detect-and-classify-object-detection-woezq
-  version: 2
+  workspace: carbeetleproject
+  project: carbeetle-detect-and-classification
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/carbeetle/detect-and-classify-object-detection-woezq/dataset/2
+  url: https://universe.roboflow.com/carbeetleproject/carbeetle-detect-and-classification/dataset/3

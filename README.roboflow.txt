@@ -1,8 +1,8 @@
 
-Detect And Classify Object Detection - v2 2025-03-03 10:26pm
+CarBeetle Detect and Classification - v3 2025-03-07 2:25pm
 ==============================
 
-This dataset was exported via roboflow.com on March 4, 2025 at 6:27 AM GMT
+This dataset was exported via roboflow.com on March 7, 2025 at 10:28 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,15 +17,16 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 7862 images.
-Items are annotated in YOLOv12 format.
+The dataset includes 9443 images.
+Items are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
 
 The following augmentation was applied to create 3 versions of each source image:
-* Random brigthness adjustment of between -20 and +20 percent
-* Random Gaussian blur of between 0 and 0.7 pixels
+* Random brigthness adjustment of between -15 and +15 percent
+* Random exposure adjustment of between -8 and +8 percent
+* Random Gaussian blur of between 0 and 1 pixels
 
 

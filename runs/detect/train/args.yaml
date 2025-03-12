@@ -2,10 +2,10 @@ task: detect
 mode: train
 model: yolo11m.pt
 data: C:\Users\lolly\OneDrive\Desktop\Projects\carbeetle_project\data.yaml
-epochs: 100
+epochs: 200
 time: null
 patience: 100
-batch: 8
+batch: 16
 imgsz: 640
 save: true
 save_period: -1

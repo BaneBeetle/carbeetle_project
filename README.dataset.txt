@@ -1,6 +1,15 @@
-# Detect And Classify Object Detection > 2025-03-03 10:26pm
-https://universe.roboflow.com/carbeetle/detect-and-classify-object-detection-woezq
+# CarBeetle Detect and Classification > 2025-03-07 2:25pm
+https://universe.roboflow.com/carbeetleproject/carbeetle-detect-and-classification
 
 Provided by a Roboflow user
 License: CC BY 4.0
+
+Dataset with carbeetle and non-carbeetles
+
+
+
+
+
+
+
 
