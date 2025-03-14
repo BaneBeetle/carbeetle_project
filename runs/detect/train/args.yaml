@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: yolo11m.pt
+model: yolo11x.pt
 data: C:\Users\lolly\OneDrive\Desktop\Projects\carbeetle_project\data.yaml
 epochs: 200
 time: null

@@ -1,5 +1,5 @@
-# CarBeetle Detect and Classification > 2025-03-07 2:25pm
-https://universe.roboflow.com/carbeetleproject/carbeetle-detect-and-classification
+# Carbeetle3 > 2025-03-12 10:01pm
+https://universe.roboflow.com/carbeetleproject/carbeetle3
 
 Provided by a Roboflow user
 License: CC BY 4.0

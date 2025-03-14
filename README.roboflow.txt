@@ -1,8 +1,8 @@
 
-CarBeetle Detect and Classification - v3 2025-03-07 2:25pm
+Carbeetle3 - v4 2025-03-12 10:01pm
 ==============================
 
-This dataset was exported via roboflow.com on March 7, 2025 at 10:28 PM GMT
+This dataset was exported via roboflow.com on March 13, 2025 at 5:05 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 9443 images.
+The dataset includes 9745 images.
 Items are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
