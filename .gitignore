@@ -4,3 +4,4 @@ civilian_raw/
 test/
 train/
 valid/
+yolo11x.pt
