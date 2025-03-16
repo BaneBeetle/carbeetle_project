@@ -8,7 +8,7 @@ import time
 def train():
     '''In charge of training and fine-tuning YOLOv11 to distinguish Carbeetle from Civilians.'''
 
-    model = YOLO("yolo11x.pt")
+    model = YOLO("yolo11n.pt")
     model.train(
         data="C:\\Users\\lolly\\OneDrive\\Desktop\\Projects\\carbeetle_project\\data.yaml",  # path to yaml file  
         imgsz=640,  # image size for training  
@@ -101,8 +101,8 @@ def webcam_testing2():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    #train()
+    train()
 
-    webcam_testing2()
+    #webcam_testing2()
 
     #test_on_video()
