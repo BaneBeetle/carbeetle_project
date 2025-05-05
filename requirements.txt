@@ -1,0 +1,20 @@
+# Core Dependencies
+torch>=1.8.0
+torchvision>=0.9.0
+opencv-python>=4.1.1
+numpy>=1.23.5
+pillow>=10.3.0
+PyYAML>=5.3.1
+matplotlib>=3.3
+tqdm>=4.66.3
+scipy>=1.4.1
+requests>=2.32.2
+psutil
+thop>=0.1.1
+ultralytics>=8.2.34
+
+# Raspberry Pi GPIO Control
+RPi.GPIO>=0.7.1; platform_system == "Linux" and platform_machine == "armv7l"
+
+# Optional: For video processing (if using moviepy)
+# moviepy>=1.0.3
